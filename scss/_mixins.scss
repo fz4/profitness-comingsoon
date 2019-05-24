@@ -1,4 +1,23 @@
 // Mixins
+
+// Font Faces
+
+@mixin font-face($font-family, $url) {
+  @font-face {
+    font-family: '#{$font-family}';
+		src: url('#{$url}.eot');
+		src: url('#{$url}.eot?#iefix') format('embedded-opentype'),
+    url('#{$url}.woff') format('woff'),
+    url('#{$url}.ttf') format('truetype'),
+    url('#{$url}.svg') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
+
+@include font-face("Samim", "../fonts/samim/Samim-FD");
+@include font-face("Samim-Bold", "../fonts/samim/Samim-Bold-FD");
+
 // Background Cover Mixin
 @mixin background-cover {
   -webkit-background-size: cover;
@@ -9,10 +28,10 @@
 
 // Font Mixins
 @mixin body-font {
-  font-family: 'Source Sans Pro';
+  font-family: 'Samim';
   font-weight: 300;
 }
 @mixin heading-font {
-  font-family: 'Merriweather';
+  font-family: 'Samim-Bold';
   font-weight: 700;
 }

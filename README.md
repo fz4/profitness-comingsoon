@@ -9,7 +9,7 @@
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-coming-soon/)**
 
 ## Status
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5566df33-8d45-4cd4-8ffc-04f12f8250e1/deploy-status)](https://app.netlify.com/sites/profitness-comingsoon/deploys)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-coming-soon/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/startbootstrap-coming-soon.svg)](https://www.npmjs.com/package/startbootstrap-coming-soon)
 [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-coming-soon.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-coming-soon)

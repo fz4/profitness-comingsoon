@@ -4,6 +4,22 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
  */
 
+@font-face {
+  font-family: "Samim";
+  src: url("../fonts/samim/Samim-FD.eot");
+  src: url("../fonts/samim/Samim-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/samim/Samim-FD.woff") format("woff"), url("../fonts/samim/Samim-FD.ttf") format("truetype"), url("../fonts/samim/Samim-FD.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Samim-Bold";
+  src: url("../fonts/samim/Samim-Bold-FD.eot");
+  src: url("../fonts/samim/Samim-Bold-FD.eot?#iefix") format("embedded-opentype"), url("../fonts/samim/Samim-Bold-FD.woff") format("woff"), url("../fonts/samim/Samim-Bold-FD.ttf") format("truetype"), url("../fonts/samim/Samim-Bold-FD.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   height: 100%;
 }
@@ -12,7 +28,7 @@ body {
   height: 100%;
   min-height: 35rem;
   position: relative;
-  font-family: 'Source Sans Pro';
+  font-family: 'Samim';
   font-weight: 300;
 }
 
@@ -22,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Merriweather';
+  font-family: 'Samim-Bold';
   font-weight: 700;
 }
 
